@@ -1,7 +1,7 @@
 import "./globals.css";
-import { OUtfit } from "next/font/google";
+import { Outfit } from "next/font/google";
 
-const font = OUtfit({ subsets: ["latin"] });
+const font = Outfit({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
